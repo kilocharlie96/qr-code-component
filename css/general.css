@@ -9,10 +9,6 @@ body{
     background: hsl(var(--color-light-gray));
 }
 
-footer{
-    padding-bottom: 1rem;
-}
-
 .attribution {
     font-size: 11px; 
     text-align: center;
