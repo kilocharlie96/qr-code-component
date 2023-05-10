@@ -38,6 +38,7 @@ h1,p{
 
 h1{
     font-weight: 700;
+    color: hsl(var(--color-dark-blue));
     text-align: center;
     font-size: 1.35rem;
     width: 19vw;
