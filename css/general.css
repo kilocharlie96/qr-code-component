@@ -8,9 +8,12 @@
 body{
     background: hsl(var(--color-light-gray));
 }
+
 .container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .content{
@@ -69,3 +72,16 @@ footer{
     color: hsl(228, 45%, 44%);
 }
 
+@media screen and (max-width: 960px) {
+    img{
+        width: clamp(9rem, 75vw, 17rem);
+    }
+
+    h1{
+        width: clamp(8rem, 70vw, 17rem);
+    }
+
+    p{
+        width: clamp(7rem, 61vw, 15rem);
+    }
+    }
