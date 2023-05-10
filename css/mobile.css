@@ -1,0 +1,13 @@
+@media screen and (max-width: 960px) {
+    img{
+        width: clamp(9rem, 75vw, 17rem);
+    }
+
+    h1{
+        width: clamp(8rem, 70vw, 17rem);
+    }
+
+    p{
+        width: clamp(7rem, 61vw, 15rem);
+    }
+    }
