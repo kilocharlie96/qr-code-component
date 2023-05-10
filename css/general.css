@@ -1,5 +1,24 @@
+:root{
+    --color-white: 0, 0%, 100%;
+    --color-light-gray: 212, 45%, 89%;
+    --color-grayish-blue: 220, 15%, 55%;
+    --color-dark-blue: 218, 44%, 22%;
+}
+
+body{
+    background: hsl(var(--color-light-gray));
+}
+
+.content{
+    background: hsl(var(--color-white));
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .attribution {
-    font-size: 11px; text-align: center;
+    font-size: 11px; 
+    text-align: center;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
