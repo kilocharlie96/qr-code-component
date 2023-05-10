@@ -32,19 +32,32 @@ img{
     width: 20vw;
 }
 
+h1,p{
+    font-family: 'Outfit', sans-serif;
+}
+
 h1{
     font-weight: 700;
-    font-family: 'Outfit', sans-serif;
     text-align: center;
-    width: 20vw;
+    font-size: 1.4rem;
+    width: 19vw;
 }
 
 p{
-    width: 20vw;
-    font-family: 'Outfit', sans-serif;
     font-weight: 400;
     font-size: 0.9375rem;
+    color: hsl(var(--color-grayish-blue));
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    width: 17vw;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 1rem;
+    width: 100%;
 }
 
 .attribution {
