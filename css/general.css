@@ -8,12 +8,28 @@
 body{
     background: hsl(var(--color-light-gray));
 }
+.container{
+    display: flex;
+    justify-content: center;
+}
 
 .content{
     background: hsl(var(--color-white));
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 30vw;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border-radius: 1rem;
+    width: 20vw;
 }
 
 .attribution {
