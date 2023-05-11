@@ -3,6 +3,7 @@
     --color-light-gray: 212, 45%, 89%;
     --color-grayish-blue: 220, 15%, 55%;
     --color-dark-blue: 218, 44%, 22%;
+    --color-footer-blue: 228, 45%, 44%;
 }
 
 body{
@@ -15,5 +16,5 @@ body{
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(var(--color-footer-blue));
 }
