@@ -1,17 +1,22 @@
+/*DESKTOP VERSION*/
 .container{
+    min-height: 95vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 95vh;
 }
 
 .content{
     background: hsl(var(--color-white));
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 1rem;
+
     padding: 1rem;
+
+    border-radius: 1rem;
 }
 
 figure{
@@ -20,8 +25,9 @@ figure{
 }
 
 img{
-    border-radius: 1rem;
     width: 20vw;
+
+    border-radius: 1rem;
 }
 
 h1,p{
@@ -29,23 +35,29 @@ h1,p{
 }
 
 h1{
-    font-weight: 700;
-    color: hsl(var(--color-dark-blue));
-    text-align: center;
-    font-size: 1.35rem;
     width: 19vw;
+
+    text-align: center;
+    color: hsl(var(--color-dark-blue));
+    font-weight: 700;
+    font-size: 1.35rem;
 }
 
 p{
+    width: 17vw;
+
+    text-align: center;
+    color: hsl(var(--color-grayish-blue));
     font-weight: 400;
     font-size: 0.9375rem;
-    color: hsl(var(--color-grayish-blue));
-    text-align: center;
+
+    
     margin-top: 0;
     margin-bottom: 1.5rem;
-    width: 17vw;
 }
 
+
+/*MOBILE VERSION*/
 @media screen and (max-width: 960px) {
     img{
         width: clamp(9rem, 75vw, 17rem);
